@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0; 
+
+   
+}
+
+body{
+    background: url(./img/background-crew-desktop.jpg);
+    background-repeat: none;
+    background-attachment: fixed; 
+    background-position: center;
+    background-size: cover;
+    
+   
+}
+main{
+color: white;
+
+}
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    right:0;
+    margin: 30px;
+    
+}
+.header-nav{
+    margin-right: -30px;
+}
+#nav-list{
+    padding: 10px;
+    display: flex;
+    list-style: none;
+    height: 30px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(30deg, rgb(12, 12, 58),white)
+
+    
+}
+a{
+    margin-right: 50px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Roboto Mono', monospace;
+   
+}
+
+.bars{
+    display: none;
+}
+.crewtxt{
+    display: flex;
+    margin: 30px;
+    font-family: 'Roboto Mono', monospace;
+}
+.biography{
+ width: 50vw;
+ margin: 40px;
+}
+.bio-txt{
+    margin-top: 200px;
+}
+.bio-txt h3{
+margin: 50PX 0PX 50PX 0PX;
+}
+
+.bio-txt p{
+    line-height: 20px;
+    width: 30vw;
+}
+.biography-img img{
+    width: 100%;
+    height: auto;
+}
+.icons{
+    margin-top: 50px;
+}
+.icons i{
+    color: grey;
+    font-size: 8px;
+    
+}
+.icons i:hover{
+    color: white;
+}
+@media screen and (max-width:780px){
+
+    body{
+        background: url(./img/background-crew-mobile.jpg);
+        background-repeat: none;
+        background-attachment: fixed; 
+        background-position: center;
+        background-size: cover;
+    }
+    .nav-content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #nav-list{
+        display: flex;
+        flex-direction: column;
+        margin-top:40px;
+        margin-left: -40px;
+        display: none;
+    }
+    #nav-list li{
+        margin-top: 20px;
+        text-align: justify;
+        
+    }
+    .bars{
+        display: block;
+    }
+    .back-content{
+        display: flex;
+        flex-direction: column;
+    }
+    .crewtxt{
+        display:flex;
+        flex-direction: column-reverse;
+    }
+    .bio{
+        width:80vw;
+    }
+    .bio-txt{
+        display:flex;
+        flex-direction: column-reverse;
+    }
+    .bio-txt p,.bio-txt h3{
+        width: 80vw;
+        text-align: center;
+        margin-top: 50px;
+       
+    }
+    .icons{
+        width: 70vw;
+        text-align: center;
+        margin:-10px;
+       
+    }
+    .biography-img{
+        margin-top: 50px;
+    }
+}

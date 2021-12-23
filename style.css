@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0; 
-    outline: 1px solid green;  
+   
 }
 
 body{
@@ -26,6 +26,10 @@ color: white;
     margin: 30px;
     
 }
+.nav-content{
+    display: flex;
+  
+}
 .header-nav{
     margin-right: -30px;
 }
@@ -42,7 +46,7 @@ color: white;
     
 }
 a{
-    margin-right: 100px;
+    margin-right: 30px;
     color: white;
     text-decoration: none;
     font-family: 'Roboto Mono', monospace;
@@ -102,4 +106,45 @@ a{
 .explore{
     margin:30px 200px 0px 0px;
     
+}
+@media screen and (max-width:780px){
+
+    body{
+        background: url(./img/background-home-mobile.jpg);
+        background-repeat: none;
+        background-attachment: fixed; 
+        background-position: center;
+        background-size: cover;
+    }
+    .nav-content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #nav-list{
+        display: flex;
+        flex-direction: column;
+        margin-top:40px;
+        margin-left: -40px;
+        display: none;
+    }
+    #nav-list li{
+        margin-top: 20px;
+        text-align: justify;
+        
+    }
+    .bars{
+        display: block;
+    }
+    .back-content{
+        display: flex;
+        flex-direction: column;
+    }
+    .travel{
+        width: 85vw;
+        margin:auto;
+    }
+    .explore{
+        margin:auto;
+    }
 }
