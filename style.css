@@ -120,13 +120,18 @@ a{
         display: flex;
         flex-direction: column;
     }
+    #navDisplay{
+        display: none;
+    }
 
     #nav-list{
         display: flex;
         flex-direction: column;
         margin-top:40px;
         margin-left: -40px;
-        display: none;
+        background-color: black;
+        color: white;
+     
     }
     #nav-list li{
         margin-top: 20px;

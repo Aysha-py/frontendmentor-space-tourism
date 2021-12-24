@@ -107,6 +107,9 @@ margin: 50PX 0PX 50PX 0PX;
         flex-direction: column;
         margin-top:40px;
         margin-left: -40px;
+        
+    }
+    #navDisplay{
         display: none;
     }
     #nav-list li{

@@ -122,13 +122,16 @@ hr{
         display: flex;
         flex-direction: column;
     }
+    #navDisplay{
+        display: none;
+    }
 
     #nav-list{
         display: flex;
         flex-direction: column;
         margin-top:40px;
         margin-left: -40px;
-        display: none;
+       
     }
     #nav-list li{
         margin-top: 20px;
