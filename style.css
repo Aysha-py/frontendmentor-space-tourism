@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0; 
    
+   
 }
 
 body{
@@ -18,17 +19,13 @@ color: white;
 
 }
 .header-content{
-    display: flex;
-    justify-content: space-between;
+    
+    
     top: 0;
     left: 0;
     right:0;
     margin: 30px;
     
-}
-.nav-content{
-    display: flex;
-  
 }
 .header-nav{
     margin-right: -30px;
@@ -36,8 +33,9 @@ color: white;
 #nav-list{
     padding: 10px;
     display: flex;
+    width: 50vw;
+    justify-content: end;
     list-style: none;
-    height: 30px;
     background-color: white;
     justify-content: center;
     align-items: center;
@@ -45,8 +43,13 @@ color: white;
 
     
 }
+.nav-content{
+    display: flex;
+    justify-content: space-between;
+   
+}
 a{
-    margin-right: 30px;
+    margin-right: 50px;
     color: white;
     text-decoration: none;
     font-family: 'Roboto Mono', monospace;
@@ -56,7 +59,6 @@ a{
 .bars{
     display: none;
 }
-
 .back-content{
     display: flex;
     justify-content: space-between;
