@@ -117,10 +117,8 @@ a{
         background-attachment: fixed; 
         background-position: center;
         background-size: cover;
-    }
-    .nav-content{
-        display: flex;
-        flex-direction: column;
+    
+  
     }
     #navDisplay{
         display: none;
