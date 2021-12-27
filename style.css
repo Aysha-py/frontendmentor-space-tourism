@@ -152,4 +152,9 @@ a{
     .explore{
         margin:auto;
     }
+    .bars .fas fa-times{
+        font-size: 70px;
+    }
+  
+    
 }
