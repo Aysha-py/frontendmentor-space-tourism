@@ -96,6 +96,7 @@ margin: 50PX 0PX 50PX 0PX;
         background-attachment: fixed; 
         background-position: center;
         background-size: cover;
+        overflow-y: visible;
     }
     .nav-content{
         display: flex;
@@ -105,16 +106,22 @@ margin: 50PX 0PX 50PX 0PX;
     #nav-list{
         display: flex;
         flex-direction: column;
-        margin-top:40px;
-        margin-left: -40px;
+        margin-top:50px;
+        margin-left: -200px;
+        background-color: black;
+        color: white;
+       background: none;
+       text-align: center;
         
     }
     #navDisplay{
         display: none;
+        
     }
     #nav-list li{
         margin-top: 20px;
         text-align: justify;
+        transition: transform 1000ms ease-in-out;
         
     }
     .bars{

@@ -116,6 +116,7 @@ hr{
         background-attachment: fixed; 
         background-position: center;
         background-size: cover;
+        overflow-y: visible;
     }
     .nav-content{
         display: flex;
@@ -128,8 +129,12 @@ hr{
     #nav-list{
         display: flex;
         flex-direction: column;
-        margin-top:40px;
-        margin-left: -40px;
+        margin-top:50px;
+        margin-left: -200px;
+        background-color: black;
+        color: white;
+       background: none;
+       text-align: center;
        
     }
     #nav-list li{
